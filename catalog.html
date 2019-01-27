@@ -14,43 +14,125 @@
           <li><a href="#">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
-        <ul class="cart">
-          <li><a href="#">Корзина</a></li>
-        </ul>
+        <a href="#">Корзина</a>
       </nav>
-      <h1 class="inner-heading">Магазин готовых шаблонов</h1>  
     </header>
     <main class="container">
-       <section class="filter">
-            <h2 class="visually-hidden">Фильтр Товаров</h2>
-           <!--Фильтр Стоимость-->
-            <ul class="filter-radio">
-                <li>Адаптивная</li>
-                <li>Фиксированная</li>
-                <li>Резиновая</li>
-            </ul>
-            <ul class="filter-features">
-                <li>Слайдер</li>
-                <li>Блок преимуществ</li>
-                <li>Новости</li>
-                <li>Галерея</li>
-                <li>Корзина</li>
-            </ul>
-            <button class="btn">ПОКАЗАТЬ</button>
-       </section>
-    <section class="template-catalog">
+      <h1 class="inner-heading">Магазин готовых шаблонов</h1>  
+      <form class="filter" action="https://echo.htmlacademy.ru">
+        <h2 class="visually-hidden">Фильтр Товаров</h2>
+        <fieldset>
+          <legend>Стоимость:</legend>
+        </fieldset>
+        <fieldset>
+          <legend>Сетка:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden input-radio" type="radio" name="developments" value="adaptive" id="filter-adaptive" checked>
+              <label for="filter-adaptive">Адаптивная</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden input-radio" type="radio" name="developments" value="static" id="filter-static">
+              <label for="filter-static">Фиксированная</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden input-radio" type="radio" name="developments" value="fluid" id="filter-fluid">
+              <label for="filter-fluid">Резиновая</label>
+            </li>  
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Особенности:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="option-gallery" id="input-slider" checked>
+              <label for="input-slider">Слайдер</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="option-features" id="input-features">
+              <label for="input-features">Блок преимуществ</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="option-news" id="input-news" checked>
+              <label for="input-news">Новости</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="option-gallery" id="input-gallery">
+              <label for="input-gallery">Галерея</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden input-checkbox" type="checkbox" name="option-cart" id="input-cart">
+              <label for="input-cart">Корзина</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button class="btn" type="submit">ПОКАЗАТЬ</button>
+      </form>
+      <section class="template-catalog">
         <!-- Топ фильтр -->
         <h2 class="visually-hidden">Каталог готовых шаблонов</h2>
         <ul class="catalog">
-            <li><h3>Sedona</h3><a href="#"><img src="http://placehold.it/360x576" alt="Sedona" width="360" height="576"></a></li>
-            <li><h3>Pink App</h3><a href="#"><img src="http://placehold.it/360x576" alt="Sedona" width="360" height="576"></a></li>
-            <li><h3>Barbershop</h3><a href="#"><img src="http://placehold.it/360x576" alt="Sedona" width="360" height="576"></a></li>
-            <li><h3>Mishka</h3><a href="#"><img src="http://placehold.it/360x576" alt="Sedona" width="360" height="576"></a></li>
-            <li><h3>A Plus</h3><a href="#"><img src="http://placehold.it/360x576" alt="Sedona" width="360" height="576"></a></li>
-            <li><h3>Кваст</h3><a href="#"><img src="http://placehold.it/360x576" alt="Sedona" width="360" height="576"></a></li>
+          <li>
+            <article>
+              <img src="http://placehold.it/360x576" alt="Sedona" width="360" height="576">
+              <div class="catalog-details">
+                <h3>Sedona</h3>
+                <p>Информационный сайт для туристов</p>
+                <a class="btn catalog-price" href="#">9 900 руб.</a>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="http://placehold.it/360x576" alt="Pink App" width="360" height="576">
+              <div class="catalog-details">
+                <h3>Pink App</h3>
+                <p>Продуктовый лендинг приложения для iOS и Android</p>
+                <a class="btn catalog-price" href="#">9 900 руб.</a>
+              </div>
+            </article>
+          </li>
+            <article>
+              <img src="http://placehold.it/360x576" alt="Barbershop" width="360" height="576">
+              <div class="catalog-details">
+                <h3>Barbershop</h3>
+                <p>Сайт салона красоты.Для мужчин, да.</p>
+                <a class="btn catalog-price" href="#">9 900 руб.</a>
+              </div>
+            </article>
+          <li>
+            <article>
+              <img src="http://placehold.it/360x576" alt="Mishka" width="360" height="576">
+              <div class="catalog-details">
+                <h3>Mishka</h3>
+                <p>Интернет-магазин вязаных игрушек</p>
+                <a class="btn catalog-price" href="#">9 900 руб.</a>
+              </div> 
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="http://placehold.it/360x576" alt="A Plus" width="360" height="576">
+              <div class="catalog-details">
+                <h3>A Plus</h3>
+                <p>Лендинг курсов повышения квалификации</p>
+                <a class="btn catalog-price" href="#">9 900 руб.</a>
+              </div> 
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="http://placehold.it/360x576" alt="Кваст" width="360" height="576">
+              <div class="catalog-details">
+                <h3>Кваст</h3>
+                <p>Промо-сайт производителя крафтового кваса</p>
+                <a class="btn catalog-price" href="#">9 900 руб.</a>
+              </div> 
+            </article>
+          </li>
         </ul>
-    </section>
-    <!-- Пагинация -->
+      </section>
+      <!-- Пагинация -->
       <!-- Секция "Как нас найти" -->
     </main>
     <footer class="main-footer">
@@ -61,7 +143,7 @@
           <li class="social-link"><a href="#">Фейсбук</a></li>
           <li class="social-link"><a href="#">Инстаграм</a></li>
         </ul>
-        <p><b>Давайте дружить, это выгодно!</b>Скидка 10% для друзей из социальных сетей.</p>
+        <p><b>Давайте дружить, это выгодно! </b>Скидка 10% для друзей из социальных сетей.</p>
       </section>
     </footer>
   </body>
