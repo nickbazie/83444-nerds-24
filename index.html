@@ -22,6 +22,41 @@
     </header>
     <main class="container">
     <!--Секция "Преимущества"-->
+      <ul class="main-slider">
+        <li class="slide slide-1">
+          <div class="slide-inside">
+            <p>
+              <b>Долго, дорого, скрупулезно.</b>
+              Математически выверенный дизайн для вашего сайта или мобильного приложения.
+            </p>
+            <a class="button" href="#">Узнать больше</a>
+          </div>
+        </li>
+        <li class="slide slide-2">
+          <div class="slide-inside">
+            <p>
+              <b>Только ночь, только хардкор.</b> 
+              Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается..
+            </p>
+            <a class="button" href="#">Узнать больше</a>
+          </div>
+        </li>
+        <li class="slide slide-3">
+          <div class="slide-inside">
+            <p><b>Долго, дорого, скрупулезно.</b> Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+            <a class="button" href="#">Узнать больше</a>
+          </div>
+        </li>
+      </ul>
+      <div class="slider-controls">
+        <input type="radio" id="button-1" name="toggle" checked>
+        <input type="radio" id="button-2" name="toggle"> 
+        <input type="radio" id="button-3" name="toggle">
+        <label for="button-1"></label>
+        <label for="button-2"></label>
+        <label for="button-2"></label>
+      </div>
+    <!--Секция "Преимущества" END-->
       <section class="products">
         <h2 class="visually-hidden">Товары</h2>
         <ul class="products-list">
@@ -46,8 +81,66 @@
         </ul>
       </section>
       <!-- Секция "О нас" -->
+      <div class="about-us">
+        <p class="nerds-description">
+          <b>Мы — маленькая, но гордаядизайн-студия из Краснодара.</b>
+          Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+          превыше креатива. Работаем не покладая рук, как роботы. 
+        </p>
+        <p class="nerds-works">
+            Выполняем заказы на разработку:
+        </p>
+        <ul class="work-options">
+          <li>Веб-сайтов любой сложности</li>
+          <li>Мобильных приложений для iOS и Android</li>
+          <li>Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
+      </div>
+      <div class="statistics">
+        <img src="img/nerds-illustration.jpg" alt="Статистика nërds" width="360" height="208"> <!--может сдесь использовать figure а "с 2004 года Любим точность во всем:" будет figcapture?-->
+        <table><!--Не знаю правильно ли, но...мы не ищем легких путей! Как тебе такое, Илон Маск?!-->
+          <tr>
+            <th colspan="3">с 2004 года любим точность во всем:</th>
+          </tr>
+          <tr>
+            <td>146 <span>%</span></td>
+            <td>100 <span>%</span></td>
+            <td>50 <span>%</span></td>
+          </tr>
+          <tr>
+            <td>Уровень самоотдачи</td>
+            <td>Соблюдение сроков</td>
+            <td>Минимальная предоплата</td>
+          </tr>
+        </table>
+      </div>
+      <!-- Секция "О нас" END -->
       <!-- Секция "Наши клиенты" -->
+      <ul class="our-clients">
+        <li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-1.png" alt="HTML Academy"></a></li>
+        <li><a href="#"><img src="img/logo-2.png" alt="Barbershop Borodinski" width="" height=""></a></li>
+        <li><a href="#"><img src="img/logo-3.png" alt="Pink" width="" height=""></a></li>
+        <li><a href="#"><img src="img/logo-4.png" alt="Mishka" width="" height=""></a></li>
+      </ul>
+      <!-- Секция "Наши клиенты" END-->
       <!-- Секция "Как нас найти" -->
+      <div class="map">
+        <img src="img/map.png" alt="" width="1440" height="416">
+      </div>
+      <div class="contact-us"><!--Будет позиционироваться черес абсолют-->
+        <address>
+          <p>Nërds design studio</p>
+          <p>
+            191186, Санкт-Петербург,<br> 
+            ул. Б. Конюшенная, д. 19/8<br>
+          </p>
+          <p>тел. 
+            <a href="tel:+78122757575">+7 (812) 275-75-75</a>
+          </p>
+        </address>
+        <a class="button" href="#">Напишите нам</a>
+      </div>
+      <!-- Секция "Как нас найти" END-->
     </main>
     <footer class="main-footer">
       <section class="footer-social">
