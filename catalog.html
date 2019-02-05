@@ -2,6 +2,9 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
@@ -79,7 +82,7 @@
             </li>
           </ul>
         </fieldset>
-        <button class="btn" type="submit">Показать</button>
+        <button class="btn form-button" type="submit">Показать</button>
       </form>
       <section class="template-catalog">
         <div class="sorting-menu">
@@ -90,8 +93,8 @@
             <li><a href="#">По названию</a></li>
           </ul>
           <ul class="sorting-order">
-            <li><a class="filter-ascending filter-active" href="#"></a></li>
-            <li><a class="filter-descending" href="#"></a></li>
+            <li><a class="filter-ascending filter-active" href="#">Вверх</a></li>
+            <li><a class="filter-descending" href="#">Вниз</a></li>
           </ul>
         </div>
         <h2 class="visually-hidden">Каталог готовых шаблонов</h2>
@@ -166,16 +169,16 @@
         <img src="img/map.png" alt="Местоположения дизайн-студии nërds" width="1440" height="416">
         <div class="contact-us">
           <address>
-            <p>Nërds design studio</p>
+            <p class="contact-us-name">Nërds design studio</p>
             <p>
               191186, Санкт-Петербург,
               ул. Б.&nbsp;Конюшенная, д. 19/8
             </p>
             <p>тел.&nbsp;
-              <a href="tel:+78122757575">+7 (812) 275-75-75</a>
+              <a class="phone" href="tel:+78122757575">+7 (812) 275-75-75</a>
             </p>
           </address>
-          <a class="button" href="#">Напишите нам</a>
+          <a class="btn" href="#">Напишите нам</a>
         </div> 
       </div>
     </main>

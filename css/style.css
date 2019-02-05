@@ -1,0 +1,234 @@
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #283136;
+}
+
+.main-navigation a {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.site-navigation {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.inner-heading {
+    font-size: 55px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.main-slider {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.slide-inside b {
+    font-size: 55px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+
+    background-color: #fb565a;
+}
+
+.products-list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.product-item h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.lead-description {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.nerds-works {
+    text-transform: uppercase;
+}
+
+.work-options {
+    list-style: none;
+}
+
+.statistics th {
+    font-weight: 700;
+    color: #000000;
+}
+
+.statistic-numbers {
+    font-size: 45px;
+    line-height: 10px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.statistic-description {
+    line-height: 16px;
+}
+
+.our-clients {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.filter ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.filter legend,
+.sorting-menu p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.sorting-menu ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.sorting-menu a {
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    color: #000000;
+}
+
+.price-controls label {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.filter-option label {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.form-button {
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+.catalog {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.catalog-details h3 {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.catalog-details p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.pagination-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination-list li {
+    background-color: #eeeeee;
+}
+
+.pagination-list a {
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #000000
+}
+
+.contact-us address {
+    font-style: normal;
+}
+
+.contact-us-name {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.phone {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-social p{
+    font-size: 16px;
+    line-height: 22px;
+}
+.footer-social b {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.social-links {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.social-links li {
+    font-size: 0;
+    
+    background-color: #e1e1e1;
+}
+
+.modal {
+    display: none;
+}
