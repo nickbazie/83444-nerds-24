@@ -6,11 +6,32 @@ body {
     color: #283136;
 }
 
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.visually-hidden {
+    display: none; /*Временно*/
+}
+
 .list {
     margin: 0;
     padding: 0;
 
     list-style: none;
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-navigation a {
@@ -47,6 +68,11 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #000000;
+}
+
+.products-list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .lead-description {
@@ -108,6 +134,27 @@ body {
     background-color: #eeeeee;
 }
 
+.sorting-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sorting-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sorting-order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .catalog-details h3 {
     font-size: 18px;
     line-height: 30px;
@@ -118,6 +165,11 @@ body {
 .catalog-details p {
     line-height: 18px;
     color: #666666;
+}
+
+.pagination-list {
+    display: flex;
+    justify-content: center;;
 }
 
 .pagination-list li {
@@ -147,6 +199,11 @@ body {
     color: inherit;
 }
 
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-social p{
     line-height: 22px;
 }
@@ -155,6 +212,12 @@ body {
     line-height: 36px;
     font-weight: 700;
     color: #000000;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .social-links li {
