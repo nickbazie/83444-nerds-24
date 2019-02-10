@@ -166,3 +166,13 @@ body {
 .modal {
     display: none;
 }
+
+.contact-item label{
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.contact-item input, 
+.contact-item textarea {
+    line-height: 18px;
+}
