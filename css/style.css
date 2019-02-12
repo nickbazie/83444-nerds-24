@@ -29,9 +29,17 @@ body {
     align-items: center;
 }
 
-.site-navigation {
+.main-navigation li,
+.cart {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.site-navigation,
+.user-cart {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .main-navigation a {
@@ -136,7 +144,7 @@ body {
 
 .sorting-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .sorting-options {
@@ -216,11 +224,14 @@ body {
 
 .social-links {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .social-links li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+
     font-size: 0;
     
     background-color: #e1e1e1;
