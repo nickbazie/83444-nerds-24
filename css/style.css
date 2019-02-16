@@ -7,9 +7,9 @@ body {
 }
 
 .container {
-    width: 940px;
+    width: 1200px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .visually-hidden {
@@ -207,13 +207,13 @@ body {
     flex-wrap: wrap;
 }
 
-.pagination-list li {
+.pagination-item {
     background-color: #eeeeee;
-    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 5px;
 }
 
-.pagination-list a {
+.pagination-item a {
     line-height: 18px;
     text-decoration: none;
     color: #000000
