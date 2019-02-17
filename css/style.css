@@ -10,10 +10,30 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    box-sizing: border-box;
 }
 
-.visually-hidden {
-    display: none; /*Временно*/
+img {
+    max-width: 100%;
+    height: auto;
+  }  
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .list {
@@ -23,23 +43,41 @@ body {
     list-style: none;
 }
 
+.main-header {
+    background-color: #eeeeee;
+}
+
+.main-logo {
+    margin-right: 20px;
+}
+
 .main-navigation {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
 
-.main-navigation li,
-.cart {
-    margin-right: 20px;
-    margin-bottom: 10px;
+    padding-top: 49px;
 }
 
 .site-navigation,
 .user-cart {
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.site-navigation a,
+.user-cart a {
+    display: block;
+    padding: 25px 20px;
+
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+
+.user-cart a {
+    padding-right: 0;
+    padding-left: 50px;
 }
 
 .main-navigation a {
@@ -205,18 +243,41 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
 }
 
 .pagination-item {
     background-color: #eeeeee;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pagination-item:last-child {
+    margin-right: 0;
 }
 
 .pagination-item a {
+    display: block;
+    padding: 20px;
     line-height: 18px;
     text-decoration: none;
     color: #000000
+}
+
+.pagination-item-current {
+    background-color: transparent;
+}
+
+.pagination-item-current a {
+    padding: 17px;
+    
+    border: 3px solid #eeeeee;
+}
+
+.pagination-item-next a {
+    padding: 20px 75px;
 }
 
 .contact-us address {
