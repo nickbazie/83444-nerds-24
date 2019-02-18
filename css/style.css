@@ -87,7 +87,18 @@ input[type="radio"].visually-hidden {
     color: #000000;
 }
 
+.heading-wrapper {
+    padding-top: 40px;
+    padding-bottom: 115px;
+
+    background-color: #eeeeee;
+}
+
 .inner-heading {
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
     font-size: 55px;
     line-height: 55px;
     color: #000000;
