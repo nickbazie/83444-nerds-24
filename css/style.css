@@ -419,6 +419,11 @@ input[type="radio"].visually-hidden {
     padding: 20px 75px;
 }
 
+.map-contact {
+    width: 1440px;
+    margin: 0 auto;
+}
+
 .contact-us address {
     font-style: normal;
 }
