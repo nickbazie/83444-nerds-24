@@ -14,7 +14,7 @@
         <ul class="list site-navigation">
           <li><a href="#">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
-          <li><a href="#">Магазин</a></li>
+          <li><a class="current-page" href="#">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
         <ul class="list user-cart">
@@ -57,7 +57,7 @@
                 <label for="filter-static">Фиксированная</label>
               </li>
               <li class="filter-option">
-                <input class="visually-hidden input-radio" type="radio" name="developments" value="fluid" id="filter-fluid">
+                <input class="visually-hidden input-radio" type="radio" name="developments" value="fluid" id="filter-fluid" disabled>
                 <label for="filter-fluid">Резиновая</label>
               </li>  
             </ul>
@@ -70,7 +70,7 @@
                 <label for="input-slider">Слайдер</label>
               </li>
               <li class="filter-option">
-                <input class="visually-hidden input-checkbox" type="checkbox" name="option-features" id="input-features">
+                <input class="visually-hidden input-checkbox" type="checkbox" name="option-features" id="input-features" disabled>
                 <label for="input-features">Блок преимуществ</label>
               </li>
               <li class="filter-option">
@@ -196,17 +196,17 @@
       <section class="footer-social">
         <h2 class="visually-hidden">«nërds» в социальных сетях</h2>
         <ul class="list social-links">
-          <li class="social-link"><a href="#"><img src="img/vk-icon.svg" alt="Вконтакте" width="26" height="15">Вконтакте</a></li>
-          <li class="social-link"><a href="#"><img src="img/fb-icon.svg" alt="Фейсбук" width="12" height="22">Фейсбук</a></li>
-          <li class="social-link"><a href="#"><img src="img/insta-icon.svg" alt="Инстаграм" width="21" height="21">Инстаграм</a></li>
+          <li><a class="social-link" href="#"><img src="img/vk-icon.svg" alt="Вконтакте" width="26" height="15">Вконтакте</a></li>
+          <li><a class="social-link" href="#"><img src="img/fb-icon.svg" alt="Фейсбук" width="12" height="22">Фейсбук</a></li>
+          <li><a class="social-link" href="#"><img src="img/insta-icon.svg" alt="Инстаграм" width="21" height="21">Инстаграм</a></li>
         </ul>
         <p><b>Давайте дружить, это выгодно! </b>Скидка&nbsp;10% для друзей из&nbsp;социальных сетей.</p>
       </section>
     </footer>
     <div class="modal modal-contact">
       <h2>Напишите нам</h2>
-      <button class="close">Закрыть</button>
-      <form class="contact-us" action="https://echo.htmlacademy.ru" method="post">
+      <button class="contact-close"><span class="visually-hidden">Закрить</span></button>
+      <form class="modal-contact-us" action="https://echo.htmlacademy.ru" method="post">
         <div class="name-surname">
           <p class="contact-item">
             <label for="contact-name">Ваше имя:</label>
@@ -216,12 +216,12 @@
             <label for="contact-email">Ваш e-mail:</label>
             <input id="contact-email" type="text" name="email" value="" placeholder="email@example.com">
           </p>
-          <p class="contact-item">
-            <label for="contact-text">Текст письма:</label>
-            <textarea id="contact-text" rows="10" cols="30" name="text" placeholder="В свободной форме"></textarea>
-          </p>
         </div>
-        <button class="button" name="button" type="submit">Отправить</button>
+        <p class="contact-item contact-textarea">
+          <label for="contact-text">Текст письма:</label>
+          <textarea id="contact-text" rows="5" cols="30" name="text" placeholder="В свободной форме"></textarea>
+        </p>
+        <button class="btn modal-contact-btn" name="button" type="submit">Отправить</button>
       </form>
     </div>
   </body>

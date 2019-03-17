@@ -29,9 +29,9 @@
       <section class="slider"><!-- что бы задать фон на весь экран-->
         <div class="container">
           <h2 class="visually-hidden">Преимущества</h2>
-          <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
-          <input class="visually-hidden" type="radio" id="product-2" name="toggle">
-          <input class="visually-hidden" type="radio" id="product-3" name="toggle">
+          <input class="slider-radio visually-hidden" type="radio" id="product-1" name="toggle" checked>
+          <input class="slider-radio visually-hidden" type="radio" id="product-2" name="toggle">
+          <input class="slider-radio visually-hidden" type="radio" id="product-3" name="toggle">
           <div class="slider-controls">
             <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
             <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
@@ -118,10 +118,10 @@
           </div>
         </div>
         <ul class="list our-clients">
-          <li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-1.png" alt="HTML Academy" width="199" height="68"></a></li>
-          <li><a href="#"><img src="img/logo-2.png" alt="Barbershop Borodinski" width="209" height="90"></a></li>
-          <li><a href="#"><img src="img/logo-3.png" alt="Pink" width="185" height="52"></a></li>
-          <li><a href="#"><img src="img/logo-4.png" alt="Mishka" width="173" height="84"></a></li>
+          <li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-1.png" alt="HTML Academy" width="260" height="100"></a></li>
+          <li><a href="#"><img src="img/logo-2.png" alt="Barbershop Borodinski" width="260" height="100"></a></li>
+          <li><a href="#"><img src="img/logo-3.png" alt="Pink" width="260" height="100"></a></li>
+          <li><a href="#"><img src="img/logo-4.png" alt="Mishka" width="260" height="100"></a></li>
         </ul>
       </div>
       <div class="map-contact">
@@ -156,8 +156,8 @@
     </footer>
     <div class="modal modal-contact">
       <h2>Напишите нам</h2>
-      <button class="close">Закрыть</button>
-      <form class="contact-us" action="https://echo.htmlacademy.ru" method="post">
+      <button class="contact-close"><span class="visually-hidden">Закрить</span></button>
+      <form class="modal-contact-us" action="https://echo.htmlacademy.ru" method="post">
         <div class="name-surname">
           <p class="contact-item">
             <label for="contact-name">Ваше имя:</label>
@@ -167,12 +167,12 @@
             <label for="contact-email">Ваш e-mail:</label>
             <input id="contact-email" type="text" name="email" value="" placeholder="email@example.com">
           </p>
-          <p class="contact-item">
-            <label for="contact-text">Текст письма:</label>
-            <textarea id="contact-text" rows="10" cols="30" name="text" placeholder="В свободной форме"></textarea>
-          </p>
         </div>
-        <button class="btn" name="button" type="submit">Отправить</button>
+        <p class="contact-item contact-textarea">
+          <label for="contact-text">Текст письма:</label>
+          <textarea id="contact-text" rows="5" cols="30" name="text" placeholder="В свободной форме"></textarea>
+        </p>
+        <button class="btn modal-contact-btn" name="button" type="submit">Отправить</button>
       </form>
     </div>
   </body>
