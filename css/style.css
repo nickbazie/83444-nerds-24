@@ -380,6 +380,7 @@ input[type='radio'].visually-hidden
     position: relative;
 
     display: inline-block;
+    vertical-align: middle;
 
     width: 18px;
     height: 18px;
