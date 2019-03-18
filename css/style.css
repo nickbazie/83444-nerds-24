@@ -921,7 +921,16 @@ input[type="radio"].visually-hidden {
 
     background-color: #eeeeee;
     box-sizing: border-box;
+}
+
+.site-info {
+    max-height: 400px;
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
     overflow: auto;
+    overflow-x: hidden;
 }
 
 .catalog-details h3 {
